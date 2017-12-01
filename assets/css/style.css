@@ -1,8 +1,45 @@
 /* == TYPOGRAPHY =============================================================*/
+
 .title {
+  color: #fff;
+  font-family: 'Times New Roman', serif;
+  font-size: 5em;
+  letter-spacing: 0.05em;
   text-align: center;
 }
 
 .section-head {
+  font-family: 'Quicksand', 'Helvetica', Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
   text-align: center;
+}
+
+label {
+  font-family: 'Quicksand', 'Helvetica', Arial, sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+
+}
+
+/* == STYLES =================================================================*/
+
+.app-header {
+  background-image: url("../../assets/images/news.jpg");
+  background-size: cover center;
+  border-radius: 10px;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.section-head {
+  margin-bottom: 50px;
+}
+
+.card {
+  margin-bottom: 50px;
+}
+
+body {
+  margin-top: 20px;
 }
