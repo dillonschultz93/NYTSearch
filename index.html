@@ -11,6 +11,9 @@
   <!-- Style.css -->
   <link rel="stylesheet" href="assets/css/style.css">
 
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
   <!-- jQuery -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 
@@ -50,8 +53,8 @@
               <!-- Number of records -->
               <div class="col-md-6">
                 <div class="form-group">
-                  <label for="exampleFormControlSelect1">Example select</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
+                  <label for="dropdown">Example select</label>
+                  <select class="form-control" id="dropdown">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -72,7 +75,7 @@
                 <div class="form-group">
                   <label for="SearchTerms">Start Year (Optional)</label>
                   <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                    <input type="text" class="form-control" placeholder="Example: 1990" aria-label="Example: 1990">
                   </div>
                 </div>
               </div>
@@ -81,7 +84,7 @@
                 <div class="form-group">
                   <label for="SearchTerms">End Year (Optional)</label>
                   <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                    <input type="text" class="form-control" placeholder="Example: 2000" aria-label="Example: 2000">
                   </div>
                 </div>
               </div>
@@ -103,6 +106,9 @@
           <div class="search-result-head">
             <h2 class="section-head">Search Results</h2>
             <!-- populate search results here, pls -->
+            <!-- <div id='returned-results'>
+            
+           </div> -->
           </div>
         </div>
       </div>
