@@ -19,8 +19,93 @@
 </head>
 <body>
   <div class="container">
-    <div class="app-header">
-      
+    <!-- App Header -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="app-header">
+          <h1 class="title">NYT Search</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Search Area -->
+    <div class="row">
+      <!-- Card wrapping -->
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="search-term-head">
+              <h2 class="section-head">Search Terms</h2>
+            </div>
+            <!-- Search Term -->
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="SearchTerms">Search Keywords</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                  </div>
+                </div>
+              </div>
+              <!-- Number of records -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Example select</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!-- Start Year -->
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="SearchTerms">Start Year (Optional)</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                  </div>
+                </div>
+              </div>
+              <!-- End Year -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="SearchTerms">End Year (Optional)</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Search and clear buttons -->
+            <div class="row">
+              <div class="col-md-12 d-flex justify-content-center">
+                <button class="btn btn-primary">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Search Results area -->
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="search-result-head">
+            <h2 class="section-head">Search Results</h2>
+            <!-- populate search results here, pls -->
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
