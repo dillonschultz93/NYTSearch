@@ -1,15 +1,25 @@
 var url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 
 var generatedURL = []
-var search;
-var beginDate;
-var endDate;
-var sort;
-var highlight;
+var search = "Obama"
+var beginDate = "20170101"
+var endDate = "20171101"
+var sort = "newest"
+var highlight = "true"
 
 function generateURL(){
-    
+    url += search + beginDate + endDate + sort + highlight
 }
+
+// $("#search-button").on("click", function(){
+//     search = $(".form-control").val()
+//     beginDate = $(".form-control").val()
+//     endDate = $(".form-control").val()
+//     sort = $(".form-control").val()
+//     highlight = $(".form-control").val()
+//     generatedURL.push(search, beginDate, endDate, sort, highlight)
+// })
+
 
 
 // url += '?' + $.param({
@@ -25,11 +35,11 @@ function generateURL(){
 //     //True or false, highlights search paramater
 //     'hl': "true"
 // });
-$.ajax({
-    url: url,
-    method: 'GET',
-}).done(function (result) {
-    console.log(result);
-}).fail(function (err) {
-    throw err;
-});
+// $.ajax({
+//     url: url,
+//     method: 'GET',
+// }).done(function (result) {
+//     console.log(result);
+// }).fail(function (err) {
+//     throw err;
+// });
